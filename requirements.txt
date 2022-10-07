@@ -1,0 +1,3 @@
+pytube
+aiohttp
+ffmpeg-python
