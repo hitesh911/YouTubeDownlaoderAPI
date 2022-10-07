@@ -120,12 +120,13 @@ async def ytDetails(request):
 
 
 
+async def create_app():
+    app = web.Application()
+	app.add_routes(routes)
+    return app
 
 
 
-
-app = web.Application()
-app.add_routes(routes)
 if __name__ == "__main__":
 	# initilizing downloads directory
 	port = int(os.environ.get('PORT', 8000))
