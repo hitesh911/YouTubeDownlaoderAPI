@@ -17,10 +17,8 @@ To run the YouTube downloader, follow these steps:
 
 4. Run the following command to start the server:
    ```
-   python <path_to_downloader.py>
+   python server.py
    ```
-
-   Replace `<path_to_downloader.py>` with the path to the `downloader.py` file.
 
 5. The server should now be running, and you can access it at `http://localhost:<port>`, where `<port>` is the port number specified in the code (default is 8000).
 
